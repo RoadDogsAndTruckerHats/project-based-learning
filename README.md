@@ -37,8 +37,17 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 # C/C++:
 ---
 
-- [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 14 on is written in C)
+**C** is a fast, low-level programming language that gives you direct control over memory and hardware, making it popular for operating systems, embedded systems, and performance-critical software.
+
+**C++** builds on C by adding object-oriented and higher-level features, allowing developers to write both low-level, efficient code and complex, high-level programs like games, engines, and large applications.
+
+- [Build an Interpreter](http://www.craftinginterpreters.com/) (Book)
+	This is a book called Crafting Interpreters.
+	
 - [Memory Allocators 101 - Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)
+	This is a blog post from 2016. It appears to be their most recent one, however the link works. There are some deep topics. 
+	- [The associated Github page](https://github.com/arjun024/memalloc)
+	
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 - [Write a FUSE Filesystem](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/)
 - [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/)
@@ -156,8 +165,16 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Handmade Hero](https://handmadehero.org)
 - [How to Make Minecraft in C++/OpenGL](https://www.youtube.com/playlist?list=PLMZ_9w2XRxiZq1vfw1lrpCMRDufe2MKV_) (video)
 
-# C#:
+# C\#
 ---
+
+C# (pronounced “C-sharp”) is a modern, object-oriented programming language developed by Microsoft for building applications ranging from desktop software to games and web services. It’s known for being easy to read, strongly typed, and tightly integrated with the .NET ecosystem.
+
+## Basics
+
+- [Derek Banas: C# tutorial (YouTube)](https://www.youtube.com/watch?v=0p0JLFZj2C8&list=PLGLfVvz_LVvRX6xK1oi0reKci6ignjdSa)
+
+## Applications
 
 - [Learn C# By Building a Simple RPG Game](http://scottlilly.com/learn-c-by-building-a-simple-rpg-index/)
 - [Create a Rogue-like game in C#](https://roguesharp.wordpress.com/)
@@ -165,7 +182,10 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build iOS Photo Library App with Xamarin and Visual Studio](https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio)
 - [Building the CoreWiki](https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p) This is a Wiki-style content management system that has been completely written in C# with ASP.NET Core and Razor Pages. You can find the source code [here](https://github.com/csharpfritz/CoreWiki).
 
-## Clojure:
+# Clojure
+---
+
+**Clojure** is a modern, functional Lisp dialect that runs on the JVM, designed for simplicity, immutability, and powerful concurrency. It emphasizes expressive code and treats data as immutable structures, making it well-suited for robust, scalable applications.
 
 - [Build a Twitter Bot with Clojure](http://howistart.org/posts/clojure/1/index.html)
 - [Building a Spell-Checker](https://bernhardwenzel.com/articles/clojure-spellchecker/)
@@ -173,9 +193,14 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Prototyping with Clojure](https://github.com/aliaksandr-s/prototyping-with-clojure)
 - [Tetris in ClojureScript](https://shaunlebron.github.io/t3tr0s-slides)
 
-## Dart:
+# Dart
+---
 
-### Flutter:
+**Dart** is a modern, easy-to-learn programming language created by Google, designed for building fast apps on multiple platforms, especially when paired with Flutter.
+
+## Flutter
+
+**Flutter** is a UI framework—also by Google—that lets you create cross-platform apps (Android, iOS, web, desktop) from a single codebase, using Dart to build smooth, responsive interfaces.
 
 - [Amazon Clone with Admin Panel](https://youtu.be/O3nmP-lZAdg)
 - [Food Delivery App](https://youtu.be/7dAt-JMSCVQ)
@@ -199,36 +224,34 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 # Erlang
 ---
 
+**Erlang** is a functional programming language built for highly reliable, concurrent, and distributed systems. It’s known for powering telecom switches and messaging systems because it can handle huge numbers of simultaneous tasks with fault-tolerant design.
+
 - [ChatBus : build your first multi-user chat room app with Erlang/OTP](https://medium.com/@kansi/chatbus-build-your-first-multi-user-chat-room-app-with-erlang-otp-b55f72064901)
 - [Making a Chat App with Erlang, Rebar, Cowboy and Bullet](http://marianoguerra.org/posts/making-a-chat-app-with-erlang-rebar-cowboy-and-bullet.html)
 
 # F#:
 ---
 
+**F#** is a functional-first programming language in the .NET family, designed to make code concise, predictable, and easy to reason about, especially for data-heavy or mathematical tasks—while still letting you use object-oriented features when needed.
+
 - [Write your own Excel in 100 lines of F#](http://tomasp.net/blog/2018/write-your-own-excel)
 
 # Java:
 ---
+
+**Java** is a widely used, object-oriented programming language built on the idea of “write once, run anywhere,” commonly used for large applications, Android apps, and server-side systems because of its stability and portability.
 
 - [Build an Interpreter](http://www.craftinginterpreters.com/) (Chapter 4-13 is written in Java)
 - [Build a Simple HTTP Server with Java](http://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html)
 - [Build an Android Flashlight App](https://www.youtube.com/watch?v=dhWL4DC7Krs) (video)
 - [Build a Spring Boot App with User Authentication](https://spring.io/guides/gs/securing-web/)
 
-# JavaScript:
----
-
-- [Build 30 things in 30 days with 30 tutorials](https://javascript30.com)
-- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
-- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
-- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
-- [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
-- [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
-
 
 # HTML and CSS:
 ---
 [[TODO#HTML|TODO]] | [[NOTES#HTML|Notes]]
+
+HTML (HyperText Markup Language) is the standard language used to structure and organize content on web pages. 
 ## Basics
 - w3schools
 - yt tutorials
@@ -240,6 +263,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Build A Loading Screen](https://medium.freecodecamp.org/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f)
 - [Build an HTML Calculator with JS](https://medium.freecodecamp.org/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98)
 - [Build a React Native Todo Application](https://egghead.io/courses/build-a-react-native-todo-application)
+- [How to Build a Web Framework in Less Than 20 Lines of Code](https://www.pubnub.com/blog/build-yourself-a-web-framework-in-less-than-20-lines-of-code/)
 
 ### Game Development
 
@@ -248,6 +272,12 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - Make Flappy Bird in HTML5 and JavaScript with Phaser
   - [Part 1](http://www.lessmilk.com/tutorial/flappy-bird-phaser-1)
   - [Part 2](http://www.lessmilk.com/tutorial/flappy-bird-phaser-2)
+
+### Desktop Application:
+
+- [Build A Desktop Chat App with React and Electron](https://medium.freecodecamp.org/build-a-desktop-chat-app-with-react-electron-and-chatkit-744d168e6f2f)
+
+
 ## Frameworks
 
 ### React
@@ -333,33 +363,74 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 1](https://bitsofco.de/bitsofcode-pwa-part-1-offline-first-with-service-worker/)
   - [Part 2](https://bitsofco.de/bitsofcode-pwa-part-2-instant-loading-with-indexeddb/)
   - [Part 3](https://bitsofco.de/bitsofcode-pwa-part-3-push-notifications/)
-- [Build A Native Desktop App with JS](https://medium.freecodecamp.org/build-native-desktop-apps-with-javascript-a49ede90d8e9)
+
 - Build a Powerful API with NodeJs,GraphQL and Hapi
   - [Part I](https://medium.com/@wesharehoodies/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 
-#### D3.js
+### Miscellaneous:
+
+- [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
+- [Build A Realtime Serverless GraphQL API with WebSockets on AWS](https://andrewgriffithsonline.com/blog/serverless-websockets-on-aws/)
+
+
+# JavaScript:
+---
+
+**JavaScript** is a versatile, high-level programming language that runs in web browsers and allows websites to be interactive, dynamic, and responsive. It’s also used on servers and in apps thanks to environments like Node.js, making it one of the most widely used languages today.
+
+## Applications
+
+### General Stuff
+
+- [Wes Bos: JavaScript30 course](https://javascript30.com)
+	Build 30 things in 30 days with 30 tutorials. This one looks pretty well thought out, and produced.
+- [Build Yourself a Redux](https://zapier.com/engineering/how-to-build-redux/)
+- [Build an App in Pure JS](https://medium.com/codingthesmartway-com-blog/pure-javascript-building-a-real-world-application-from-scratch-5213591cfcd6)
+- [Build a Jupyter Notebook Extension](https://link.medium.com/wWUO7TN8SS)
+- [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
+- [Build a Todo List App in JavaScript](https://github.com/dwyl/javascript-todo-list-tutorial)
+### Game Development
+
+- [Build a TicTacToe Game with JavaScript](https://medium.com/javascript-in-plain-english/build-tic-tac-toe-game-using-javascript-3afba3c8fdcc)
+
+### Desktop Applications
+
+- [Build A Proton Native Desktop App with JS](https://medium.freecodecamp.org/build-native-desktop-apps-with-javascript-a49ede90d8e9)
+
+## Frameworks
+
+### D3.js
+
+**D3.js** is a JavaScript library for creating interactive, data-driven visualizations in the web browser. It lets developers bind data to HTML, SVG, or canvas elements and then transform them with animations, charts, and custom graphics.
 
 - [Learn D3 using examples](https://www.sitepoint.com/d3-js-data-visualizations/)
 - [Learn To Make A Line Chart](https://medium.freecodecamp.org/learn-to-create-a-line-chart-using-d3-js-4f43f1ee716b)
 
-### Desktop Application:
 
-- [Build A Desktop Chat App with React and Electron](https://medium.freecodecamp.org/build-a-desktop-chat-app-with-react-electron-and-chatkit-744d168e6f2f)
 
-### Miscellaneous:
 
-- [How to Build a Web Framework in Less Than 20 Lines of Code](https://www.pubnub.com/blog/build-yourself-a-web-framework-in-less-than-20-lines-of-code/)
-- [Build Yourself a Redux](https://zapier.com/engineering/how-to-build-redux/)
-- [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
-- [Build A Realtime Serverless GraphQL API with WebSockets on AWS](https://andrewgriffithsonline.com/blog/serverless-websockets-on-aws/)
 
 # Kotlin:
 ---
 
-- [Keddit - Learn Kotlin While Developing an Android Application](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664)
+**Kotlin** is a modern, concise programming language designed to improve on Java, widely used for Android development and capable of running anywhere the JVM runs, with safety and readability as key goals.
+
+- [Keddit - Learn Kotlin While Developing an Android Application](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664) (Medium)
+	This Tutorial guides you through building a Reddit Client in Kotlin
+- 
 
 # Lua
 ---
+| [Website](https://www.lua.org/)|
+
+**Lua** is a lightweight, fast scripting language often used for embedding into applications and game engines, letting developers extend or customize behavior with simple, flexible code.
+
+## Basics
+
+- [Derek Banas: Lua Tutorial](https://www.youtube.com/watch?v=iMacxZQMPXs)
+
+## Applications
+
 
 ## Frameworks
 
@@ -382,12 +453,25 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 13: Skill Tree](https://github.com/SSYGEN/blog/issues/27)
   - [Part 14: Console](https://github.com/SSYGEN/blog/issues/28)
   - [Part 15: Final](https://github.com/SSYGEN/blog/issues/29)
-### LÖVR:
+
+### LÖVR
+[Github](https://github.com/bjornbytes/lovr) | [Website](https://lovr.org/) | 
+
+- [Getting Started with LÖVR](https://lovr.org/docs/Getting_Started)
+- [GameFromScratch (YouTube)](https://www.youtube.com/watch?v=V31VfV84FvY)
+- 
 
 
 
 # Python
 ---
+
+**Python** is a high-level, easy-to-read programming language known for its simplicity and versatility. It’s widely used in web development, data science, automation, and more, making it beginner-friendly and powerful for professionals alike.
+
+## Basics
+
+- [Derek Banas: Python Tutorial](https://www.youtube.com/watch?v=nwjAHQERL08&list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+- [Socratica: Python Tutorial series ](https://www.youtube.com/watch?v=bY6m6_IIN94&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=1)
 ## Applications
 
 ### Web Scraping:
@@ -422,7 +506,7 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 ### Bots:
 
 - [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
-- [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
+- [How to Make a Reddit Bot](https://www.youtube.com/watch?v=krTUf7BpTc0) (YouTube)
 - [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
 - [Making a Reddit + Facebook Messenger Bot](https://pythontips.com/2017/04/13/making-a-reddit-facebook-messenger-bot/)
 - How To Create a Telegram Bot Using Python
@@ -551,7 +635,16 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
 
-# Go:
+## Frameworks
+
+### TkInter
+- [Derek Banas: TkInter Tutorial series](https://www.youtube.com/watch?v=-tbWoZSi3LU&list=PLGLfVvz_LVvSj3Nn_zeqWFnBusqvsjMqF)
+
+
+# Go
+---
+
+**Go** (or **Golang**) is a statically typed, compiled programming language developed by Google, designed for simplicity, efficiency, and strong support for concurrency. It’s often used for backend systems, cloud services, and scalable network applications.
 
 - [Create a Real Time Chat App with Golang, Angular 2, and WebSocket](https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/)
 - [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
@@ -591,7 +684,11 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 - [REST API masterclass with Go, PostgreSQL and Docker(video playlist)`in progress`](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 
-# PHP:
+
+# PHP
+---
+
+**PHP** is a server-side scripting language mainly used for building dynamic websites and web applications, known for being easy to start with and deeply tied to web development.
 
 - [How To Build A Blog With Laravel](https://www.youtube.com/playlist?list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx) (video)
 - [Make Your Own Blog (in Pure PHP)](http://ilovephp.jondh.me.uk/en/tutorial/make-your-own-blog)
@@ -609,12 +706,18 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 7: Deployment](https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-7-deployment-40bb3c895627)
 - [Build a Laravel CRUD Application From Scratch](https://www.codewall.co.uk/laravel-crud-demo-with-resource-controller-tutorial/)
 
-# OCaml:
+# OCaml
+---
+
+**OCaml** is a functional programming language with strong static typing and high performance, designed for writing reliable, concise code—often used in research, compilers, finance, and complex systems.
 
 - [Implement a Language with LLVM in OCaml](https://llvm.org/docs/tutorial/#kaleidoscope-implementing-a-language-with-llvm-in-objective-caml)
 - [Writing a Game Boy Emulator in OCaml](https://linoscope.github.io/writing-a-game-boy-emulator-in-ocaml/)
 
-## Ruby:
+# Ruby
+---
+
+**Ruby** is a high-level, dynamic programming language known for its simplicity and readability. It’s often used for web development, especially with the Ruby on Rails framework, allowing developers to build applications quickly and elegantly.
 
 - [Build a Network Stack with Ruby](https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b)
 - Build your own Redis
@@ -625,14 +728,17 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 4: ECHO](https://rohitpaulk.com/articles/redis-4)
 - [Rebuilding Git in Ruby](https://thoughtbot.com/blog/rebuilding-git-in-ruby)
 
-### Ruby on Rails:
+## Ruby on Rails
 
 - [The Ruby on Rails Tutorial](https://www.railstutorial.org/book)
 - [Build Instagram From Scratch with Ruby on Rails](https://www.dropbox.com/s/9vq430e9s3q7pu8/Let%27s%20Build%20Instagram%20with%20Ruby%20on%20Rails%20-%20Free%20Edition.pdf?dl=0)
 - [Build a Social Network using Rails](https://medium.com/rails-ember-beyond/how-to-build-a-social-network-using-rails-eb31da569233)
 - [How To Build a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-build-a-ruby-on-rails-application)
 
-## Haskell:
+# Haskell
+---
+
+**Haskell** is a purely functional programming language with strong static typing and lazy evaluation, designed for writing clear, concise, and mathematically robust code. It’s often used in research, teaching, and complex systems that benefit from correctness and maintainability.
 
 - [Write You a Haskell - Build a modern functional compiler](http://dev.stephendiehl.com/fun/)
 - [Write Yourself a Scheme in 48 hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
@@ -641,13 +747,27 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
 - [Making Movie Monad](https://lettier.github.io/posts/2016-08-15-making-movie-monad.html)
 - [Making a Website with Haskell **(outdated)**](http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html)
 
-## R:
+
+# R
+---
+
+**R** is a programming language and environment designed for statistics, data analysis, and visualization. It’s widely used by statisticians and data scientists to manipulate data, perform complex analyses, and create detailed graphs and reports.
 
 - [Build Web Apps with Shiny](http://shiny.rstudio.com/tutorial/)
 - [Build A Cryptocurrency Bot](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 - [Learn Associate Rule Mining in R](https://towardsdatascience.com/association-rule-mining-in-r-ddf2d044ae50)
 
-## Rust:
+
+# Rust
+---
+
+**Rust** is a modern systems programming language focused on speed, memory safety, and concurrency without a garbage collector. It’s used for building high-performance applications like operating systems, game engines, and web servers while minimizing common programming errors.
+
+## Basics
+
+- [Derek Banas: Rust Tutorial (YouTube)](https://www.youtube.com/watch?v=ygL_xcavzQ4)
+
+## Applications
 
 - A Simple Web App in Rust
   - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
@@ -669,12 +789,18 @@ To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIB
   - [Part 3](https://pwy.io/en/posts/learning-to-fly-pt3/)
   - [Part 4](https://pwy.io/en/posts/learning-to-fly-pt4/)
 
-## Scala:
+# Scala
+---
+
+**Scala** is a programming language that blends object-oriented and functional programming, running on the JVM. It’s designed for concise, expressive code and is often used in data processing, distributed systems, and scalable applications.
 
 - [Simple actor-based blockchain](https://www.freecodecamp.org/news/how-to-build-a-simple-actor-based-blockchain-aac1e996c177/)
 - [No Magic: Regular Expressions](https://rcoh.svbtle.com/no-magic-regular-expressions)
 
-## Swift:
+## Swift
+---
+
+**Swift** is a modern, fast, and safe programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications. It emphasizes readability, performance, and safety while supporting both object-oriented and functional programming styles.
 
 - [Hacking with Swift - Learn Swift by doing 39 projects](https://www.hackingwithswift.com/read)
 - [Retro first-person shooter from scratch](https://github.com/nicklockwood/RetroRampage)
