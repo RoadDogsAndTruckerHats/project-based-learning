@@ -255,6 +255,7 @@ HTML (HyperText Markup Language) is the standard language used to structure and 
 ## Basics
 - w3schools
 - yt tutorials
+- [Derek Banas: HTML Tutorial](https://www.youtube.com/watch?v=kDyJN7qQETA)
 
 ## Applications
 
